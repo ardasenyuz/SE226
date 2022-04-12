@@ -1,0 +1,15 @@
+my_list=[]
+print(my_list)
+my_list.append('arda')
+print(my_list)
+my_list.append('Python.')
+print(my_list)
+my_list.append('Guido van Rossum')
+print(my_list)
+del my_list[0]
+print(my_list)
+my_list.append('is the inventor of' )
+print(my_list)
+first_element = my_list.pop(0)
+my_list.append(first_element)
+print(my_list)
